@@ -1,7 +1,7 @@
 var initialized = false;
 
 class blitz {
-    send(){
+    send(obj,script){
         if(initialized){
             console.log("url " + this.url);
         }
