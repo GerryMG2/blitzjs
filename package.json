@@ -1,23 +1,51 @@
 {
-  "name": "blitz-etl",
-  "version": "1.0.2",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "blitz-etl@1.0.2",
+  "_id": "blitz-etl@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-S9Q2YpTfBYzM1vhvBdoMDQk3zIbb8ft7uFHVUhJLvroH1cnUWbRJsLfkXhpAtpvd09I0ihYFfe8WT3pNIy4E3w==",
+  "_location": "/blitz-etl",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "blitz-etl@1.0.2",
+    "name": "blitz-etl",
+    "escapedName": "blitz-etl",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
   },
-  "author": "gerrymg",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GerryMG2/blitzjs.git"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/blitz-etl/-/blitz-etl-1.0.2.tgz",
+  "_shasum": "79362978b2c3d632078b0a99f5ed9dbef09b5dd6",
+  "_spec": "blitz-etl@1.0.2",
+  "_where": "E:\\documentos\\code-with-quarkus\\testApp",
+  "author": {
+    "name": "gerrymg"
   },
   "bugs": {
     "url": "https://github.com/GerryMG2/blitzjs/issues"
   },
-  "homepage": "https://github.com/GerryMG2/blitzjs#readme",
-  "description": "",
+  "bundleDependencies": false,
   "dependencies": {
     "socket.io": "^4.3.1",
     "socket.io-client": "^4.3.2"
-  }
+  },
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/GerryMG2/blitzjs#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "blitz-etl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerryMG2/blitzjs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
 }

@@ -31,6 +31,7 @@ class blitz {
 
     init(url){
         this.url = url;
+        console.log(url);
         initialized = true;
         this.socket = io(url,{
             query: {
@@ -38,7 +39,7 @@ class blitz {
             }
         });
         this.socket.on("connect",()=>{
-
+            console.log("connected");
         });
 
         this.socket.on("disconnect",()=>{
