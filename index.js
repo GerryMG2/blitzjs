@@ -6,10 +6,12 @@ class blitz {
     constructor(){
         this.url = "";
         this.initialized = false;
-        
+
     }
 
-    init()
+    init(url){
+        this.url = url;
+    }
 }
 
 
