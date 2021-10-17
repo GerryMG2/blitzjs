@@ -1,16 +1,25 @@
+var initialized = false;
+
 class blitz {
-    static send(){
-        console.log("hola");
+    send(){
+        if(initialized){
+            console.log("url " + this.url);
+        }
+        else{
+            throw "blitz-etl has not been initialized. Plese use blitz.init('http:...')"
+        }
     }
 
     constructor(){
         this.url = "";
-        this.initialized = false;
+       
 
     }
+    
 
     init(url){
         this.url = url;
+        initialized = true;
     }
 }
 
