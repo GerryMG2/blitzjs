@@ -17,6 +17,7 @@
   "homepage": "https://github.com/GerryMG2/blitzjs#readme",
   "description": "",
   "dependencies": {
-    "socket.io": "^4.3.1"
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2"
   }
 }
