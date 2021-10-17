@@ -15,5 +15,8 @@
     "url": "https://github.com/GerryMG2/blitzjs/issues"
   },
   "homepage": "https://github.com/GerryMG2/blitzjs#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "socket.io": "^4.3.1"
+  }
 }
