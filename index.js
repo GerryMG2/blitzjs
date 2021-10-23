@@ -12,7 +12,7 @@ class blitz {
                     connection: id_db
                 }); 
             } catch (error) {
-                
+                console.log(error);
             }
             
         }
